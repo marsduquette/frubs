@@ -8,32 +8,40 @@
   }
 
   body {
-    display: flex;
+    margin: 0;
+    height: 100vh;
+/*     display: flex; */
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    
 
   }
-  
-  .frame {
-    position: relative;
-    width: 500px;
-    height: 500px;
-    border: 1px solid black;
-  }
+
   
   .tree {
     position: absolute;
-    width: 180px;
-    height: 250px;
-    top: 90px;
-    left: 160px;
-    background-color: 
+    background-color:rgb(141, 180, 113);
+    width: 50px;
+    height: 600px;
+    bottom: 0vw;
+    right: 40vw;
+    border-radius: 5%;
+     
   }
+  
+  .leg {
+    position: absolute;
+    background-color:rgb(141, 180, 113);
+    width: 70px;
+    height: 300px;
+    bottom: 5vw;
+    right: 30vw;
+    border-radius: 5%;
+  }
+  
   
 </style>
 
-<div class="frame">
-  <div class="tree"></div>
+<div class="tree">
+  <div class="leg"></div>
 </div>
